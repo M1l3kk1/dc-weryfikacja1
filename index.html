@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weryfikacja</title>
+  <style>
+    body {
+      background-color: #1e1f22;
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background-color: #2b2d31;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+    .card img {
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .card h2 {
+      margin-bottom: 10px;
+    }
+    .card p {
+      color: #ccc;
+      font-size: 14px;
+    }
+    .auth-btn {
+      margin-top: 20px;
+      background-color: #5865F2;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .auth-btn:hover {
+      background-color: #4752c4;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://cdn.discordapp.com/embed/avatars/0.png" width="80" alt="avatar" />
+    <h2>Weryfikacja</h2>
+    <p>Chce uzyskać dostęp do Twojego konta Discord</p>
+    <ul style="text-align: left; margin-top: 20px;">
+      <li>✅ Uzyskać dostęp do Twojej nazwy użytkownika, awatara i baneru</li>
+      <li>✅ Uzyskać dostęp do Twojego adresu e-mail</li>
+      <li>✅ Dołączyć do serwerów dla Ciebie</li>
+      <li>❌ Namalować małe, szczęśliwe drzewko</li>
+    </ul>
+    <a class="auth-btn" href="#">Autoryzuj</a>
+  </div>
+</body>
+</html>
